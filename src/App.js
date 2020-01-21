@@ -12,9 +12,9 @@ function App() {
     <div>
       <Navbar />
       <Switch>
-        <Route path="resort/" exact component={Home} />
-        <Route path="resort/rooms/" exact component={Rooms} />
-        <Route path="resort/rooms/:slug" exact component={SingleRoom} />
+        <Route path="/resort/" exact component={Home} />
+        <Route path="/resort/rooms/" exact component={Rooms} />
+        <Route path="/resort/rooms/:slug" exact component={SingleRoom} />
         <Route exact component={Error} />
       </Switch>
     </div>
