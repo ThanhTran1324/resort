@@ -45,7 +45,7 @@ export default class SingleRoom extends Component {
       <React.Fragment>
         <StyledHero img={mainImg || this.state.defaultBcg} hero="roomsHero">
           <Banner title={`${name} room`}>
-            <Link to="/rooms" className="btn-primary">
+            <Link to="/resort/rooms" className="btn-primary">
               back to rooms
             </Link>
           </Banner>
