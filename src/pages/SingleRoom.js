@@ -15,7 +15,10 @@ export default class SingleRoom extends Component {
     };
   }
   static contextType = RoomContext;
-  componentDidMount() {}
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   render() {
     const { getRoom } = this.context;
     const room = getRoom(this.state.slug);
